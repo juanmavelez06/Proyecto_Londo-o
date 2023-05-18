@@ -59,15 +59,15 @@ function MyNavbar() {
               >
                 Contacto
               </Nav.Link>
-              {/* <Nav.Link
-                href="#skills"
+              <Nav.Link
+                href="#Servicios"
                 className={
                   activeLink === "skills" ? "active navbar-link" : "navbar-link"
                 }
                 onClick={() => onUpdateActiveLink("skills")}
               >
-                Clases
-              </Nav.Link> */}
+                Servicios
+              </Nav.Link>
               <Nav.Link
                 href="#reserva"
                 className={

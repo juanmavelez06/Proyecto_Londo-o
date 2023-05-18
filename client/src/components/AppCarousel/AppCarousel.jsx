@@ -1,7 +1,7 @@
 import './index.css'
 import Carousel from 'react-bootstrap/Carousel';
-import flores from "../AppCarousel/img/Flores.jpg"
-import familia from "../AppCarousel/img/Familia.jpg"
+import flores from "../AppCarousel/img/flores_paisaje.jpg"
+import familia from "../AppCarousel/img/FLondoño.jpg"
 import silletas from "../AppCarousel/img/Silletas.jpg"
 
 // const caption = "Bienvenidos a la Familia Londoño!";

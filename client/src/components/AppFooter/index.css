@@ -66,7 +66,9 @@ body {
   color: #e1306c;
 }
 .wrapper .button:nth-child(3):hover .icon {
-  background: #1da1f2;
+  background:#00DB71;
+  
+  
 }
 .wrapper .button:nth-child(4):hover .icon {
   background: linear-gradient(135deg, #fd2c54, #060606, #00a4d3);

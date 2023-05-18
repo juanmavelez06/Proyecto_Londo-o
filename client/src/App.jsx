@@ -11,6 +11,7 @@ import Footer from "./components/AppFooter/AppFooter";
 import Info from "./components/AppInfo/AppInfo";
 import Agenda from "./components/AppAgenda/AppAgenda";
 
+
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,7 @@ function App() {
       <Info />
       <Agenda/>
       <Footer />
-      {/* <FormularioCita/> */}
+      
     </div>
   );
 }
