@@ -24,7 +24,7 @@ log4js.configure({
     },
   });
   
-  const logger = log4js.getLogger("error");
+const logger = log4js.getLogger("error");
 
 const app = express();
 
@@ -39,7 +39,7 @@ try {
     await db.authenticate();
     console.log("La conexion con base de datos se dio de manera exitosa!")
 } catch (error) {
-    logger.error(`El error de conexion es: ${error}`)
+  console.log(`El error de conexion es: ${error}`)
 }
 
 app.listen(PORT, ()=> {
