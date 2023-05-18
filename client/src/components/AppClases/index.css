@@ -1,0 +1,96 @@
+.box_contec {
+    margin-top: 140px;
+    height: 800px;
+    width: 100vw;
+    background-color: rgb(163, 162, 160);
+  }
+  .icon {
+    color: rgb(14, 14, 14);
+    font-size: 50px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    margin-left: 45%;
+  }
+  .icon2 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-top: -320px;
+    margin-bottom: 3px;
+    margin-left: 45%;
+  }
+  .icon3 {
+    color: rgb(14, 14, 14);
+    font-size: 50px;
+    margin-bottom: 1px;
+    margin-left: 45%;
+  }
+  
+  .box_contec h1 {
+    padding: 120px 0px 0px 0px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 600;
+  
+  }
+  .box_contec p {
+    padding: 0px 0px 90px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .box_info1,
+  .box_info2,
+  .box_info3 {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+  }
+  
+  .box_info1 h2 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .box_info1 p {
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .box_info2 h2 {
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .box_info2 p {
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    background-color: transparent;
+  }
+  .box_info3 h2 {
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .box_info3 p {
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+  background-color: transparent;
+  }
+  
+  .box_info4 {
+    padding: 4px;
+    width: 100vw;
+  }
+  

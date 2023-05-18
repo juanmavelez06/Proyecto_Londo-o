@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container_Formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.box_form {
+    margin: 20px 5%;
+    padding: 35px 50px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto 30px auto;
+    grid-column-gap: 900rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(15, 1, 1, 0.3);
+    margin-left: 5rem;
+    width: 750px;
+    max-width: 100%;
+    color: black;
+}
+
+.tab {
+    border-radius: 10px;
+    background-color: #E3EAF2;
+    width: 290px;
+    height: 325px;
+    font-size: large;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    margin-left: 420px;
+}
+
+
+form input {
+    background-color:#fffefe;
+    color: rgb(21, 19, 19);
+    border:none;
+    border-radius: 3px;
+    width: 20rem;
+    padding: 2px;
+    margin-left: -2rem;
+    text-transform: capitalize;
+}
+
+.submit {
+    background-color: #E3EAF2;
+    color: rgb(0, 0, 0);
+    border: 2px;
+    width: 280px;
+    margin-left: -2rem;
+    margin-top: 13px;
+}
+
+
+label{
+ color: transparent;
+}
+.error_p{
+    color: #de1d3d;;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+

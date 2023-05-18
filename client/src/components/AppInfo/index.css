@@ -1,0 +1,52 @@
+.box_info2{
+    margin-top: 170px;
+    background-color: wheat;
+    height: 500px;
+}
+.box_info2 h1{
+    padding: 110px;
+    color: rgb(13, 14, 14);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+.box_info2 h2{
+    margin-top: -130px;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.info_A{ 
+    margin: 0px 50px 0px 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 400;
+    color: black;
+}
+.info_B{
+    margin: 0px 50px 0px 50px;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+}
+.box_info3{
+    background-color: #4ebebe;
+    color: rgb(0, 0, 0);
+    height: 500px;
+}
+.box_info4{
+    height: 100px;
+}
+.box_info4 h2{
+
+    margin-top: 25px;
+    font-size: 40px;
+  text-align: center;
+}
+.box_img{
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
