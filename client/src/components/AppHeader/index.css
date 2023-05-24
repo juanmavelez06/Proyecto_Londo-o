@@ -4,14 +4,12 @@ nav.navbar {
   top: -40px;
   left: 220px;
   z-index: 100;
-
   transition: 0.32s ease-in-out;
 }
 
 
 nav.navbar.scrolled {
   padding: 12px 5px;
- 
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 600;
