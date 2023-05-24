@@ -8,6 +8,7 @@ nav.navbar {
   transition: 0.32s ease-in-out;
 }
 
+
 nav.navbar.scrolled {
   padding: 12px 5px;
  
@@ -32,7 +33,10 @@ span {
   text-align: left;
   position: absolute;
   margin: 20px;
-  left: -320px;
-  top: -45px;
+  left: -220px;
+  top: 15px;
   color: rgb(8, 8, 8);
+}
+div.conatiner{
+  margin-left: -100rem;
 }
