@@ -65,50 +65,11 @@ form input {
     font-weight: bold;
     width: 500px;
     border-radius: 10px;
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     color: black;
     position: absolute;
     left: 585px;
     padding: 10px;
 }
 
-.rbc-header {
-    background-color: aquamarine;
-    font-weight: bold;
-}
 
-.rbc-calendar {
-    background-color: #fffefe;
-}
-
-.rbc-event.rbc-selected {
-    background-color: rebeccapurple;
-}
-
-.rbc-events-container {
-    background-color: yellowgreen;
-}
-
-.rbc-button-link {
-    background-color: white;
-}
-
-/* Media Queries */
-
-@media screen and (max-width: 768px) {
-    .container {
-
-    }
-    
-    .box_form {
-
-    }
-    
-    .tab {
-
-    }
-    
-    .calendar {
-       
-    }
-}
