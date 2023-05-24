@@ -15,14 +15,14 @@ import Agenda from "./components/AppAgenda/AppAgenda";
 function App() {
   return (
     <div className="App">
-      <MyNavbar />
-      {/* <Carusel />
+         <MyNavbar />
+      <Carusel />
       <Home />
       <Biografia />
       <Contact />
       <Info />
       <Agenda/>
-      <Footer /> */}
+      <Footer />
       
     </div>
   );
