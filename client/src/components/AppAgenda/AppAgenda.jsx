@@ -117,7 +117,7 @@ const Agenda = () => {
           Hora de la cita<br />{horaCita}<br />
         </nav>
 
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} className="formulario_citas">
           <div>
             <label>Nombre</label>
             <input
@@ -180,6 +180,19 @@ const Agenda = () => {
         </form>
       </div>
 
+<div className="calendar">
+        <Calendar
+          localizer={localizer}
+          events={eventos}
+          startAccessor="start"
+          endAccessor="end"
+          views={["month"]}
+          defaultView="month"
+          popup={false}
+          step={10}
+          onSelectEvent={(event) => Swal.fire(event.title)}
+        />
+      </div>
  
     
     </main>
