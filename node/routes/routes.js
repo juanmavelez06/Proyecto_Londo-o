@@ -14,4 +14,8 @@ router.post("/users/add", createUsers, crearCita);
 router.put("/users/edit/:id",updateUsers);
 router.delete("/users/delete/:id",deleteUsers);
 
+// router.get('/citas/:fecha',obtenerCitasPorFecha);
+// router.post('/addcitas', crearCita);
+//
+
 export default router;

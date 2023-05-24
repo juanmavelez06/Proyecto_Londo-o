@@ -1,7 +1,7 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-
+import FormularioCita from "./components/Formulariocitas.js/Formulario";
 import Carusel from "./components/AppCarousel/AppCarousel";
 import MyNavbar from "./components/AppHeader/AppHeader";
 import Home from "./components/AppHome/AppHome";
@@ -15,7 +15,7 @@ import Agenda from "./components/AppAgenda/AppAgenda";
 function App() {
   return (
     <div className="App">
-         <MyNavbar />
+      <MyNavbar />
       <Carusel />
       <Home />
       <Biografia />
