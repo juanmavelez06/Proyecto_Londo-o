@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./index.css";
 import Swal from "sweetalert2";
+import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -17,13 +19,33 @@ const Contact = () => {
       return;
     }
 
-    Swal.fire("¡Mensaje enviado!", "Gracias por contactarnos.", "success");
-
-    setName("");
-    setEmail("");
-    setAsunto("");
-    setMensaje("");
-    setMensajeError("");
+     emailjs
+      .sendForm(
+        "default_service",
+        "template_8uyzmlb",
+        e.target,
+        "dnJLMbi6zB3iEfgZD"
+      )
+      .then(() => {
+        Swal.fire({
+          title: "¡Mensaje enviado!",
+          text: "Gracias por contactarnos.",
+        }
+        );
+        setName("");
+        setEmail("");
+        setAsunto("");
+        setMensaje("");
+        setMensajeError("");
+      })
+      .catch((error) => {
+        console.error("Error al enviar el mensaje:", error);
+        Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "Ocurrió un error al enviar el mensaje",
+        });
+      });
   };
 
   return (
@@ -32,8 +54,6 @@ const Contact = () => {
         <form
           className="box_contact"
           onSubmit={submitForm}
-          action="https://formsubmit.co/7a1f9b7694291e13974d03eac1b33253"
-          method="POST"
         >
           <h1>Contacto</h1>
           
@@ -76,7 +96,8 @@ const Contact = () => {
 
           
 
-          <input type="hidden" name="_next" value={"http://localhost:5173/#Contacto"} />
+          <input type="hidden" name="_next" value={"https://familialondono.netlify.app/"} />
+
           <input type="hidden" name="_captcha" value={false} />
 
           <button type="submit" className="submit_mensaje">

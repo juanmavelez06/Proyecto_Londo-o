@@ -21,7 +21,7 @@ body {
     grid-column-gap: 900rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(15, 1, 1, 0.3);
-    margin-left: 5rem;
+    margin-left: -25rem;
     width: 750px;
     max-width: 100%;
     color: black;
@@ -36,7 +36,7 @@ body {
     text-align: center;
     color: black;
     padding: 10px;
-    margin-left: 420px;
+    margin-left: 200px;
 }
 
 
@@ -68,5 +68,43 @@ label{
     color: #de1d3d;;
     margin-top: 5px;
     margin-right: 10px;
+}
+
+.rbc-btn-group p{
+    display: none;
+}
+.rbc-calendar{
+    border-radius: 10px;
+    background-color: #E3EAF2;
+}
+span.rbc-toolbar-label{
+    margin-left: 20rem;
+    margin-top: -0.4rem;
+    font-size: 26px;
+
+}
+.rbc-btn-group{
+  font-size: 20px;
+  margin-left: 32rem;
+  margin-top: -0.2rem;
+}
+
+.rbc-header span{
+    background-color: #de1d3d;
+    display: none;
+}
+
+.calendar {
+    font-family: 'Times New Roman', Times, serif;
+    width: 420px;
+    height: 385px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(15, 1, 1, 0.3);
+    color: black;
+    position: absolute;
+    left: 825px;
+    padding: 10px;
+   
 }
 
